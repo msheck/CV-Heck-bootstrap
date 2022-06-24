@@ -1,0 +1,79 @@
+/* General */
+
+/* Headings */
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 125%;
+}
+
+h1,h2,h3,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 > strong > span {
+    font-size: 135%;
+}
+
+hr {
+    border-width: 4px;
+    color: #0085ff;
+}
+
+/* Sidebar */
+
+#sidebar {
+    background-color: #cce2f5;
+    color: #4a4a4a;
+}
+
+#picture > img {
+    width: 90%;
+    height: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffee;
+    border-radius: 50%;
+}
+
+#navbar > * {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS';
+}
+
+#navbar > ul > li,
+#info > ul > li {
+    list-style: none;
+    padding-bottom: 2%;
+}
+
+.nav-menu a:hover, 
+.nav-menu li:hover > a {
+    text-decoration: underline;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+#info > h2 {
+    font-size: 140%;
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+/* Inner Page */
+
+#experience > article {
+    border-left-style: solid;
+    border-width: 2px;
+    border-color: #cce2f5;
+}
+
+#inner li {
+    list-style-type: circle;
+}
+

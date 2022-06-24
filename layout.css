@@ -1,0 +1,91 @@
+/* General */
+
+:root {
+    --main-width: 75%;
+    --sidebar-width: calc(100% - var(--main-width));
+    --min-sidebar-width: 12em;
+    --header-height: 250px;
+}
+
+body {
+    font-size: 1em;
+    margin: 0 auto;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+    text-decoration-skip: ink;
+    hyphens: auto;
+}
+
+article {
+    padding-left: 5px;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Sidebar */
+
+#sidemargin {
+    width: var(--sidebar-width);
+    min-width: var(--min-sidebar-width);
+}
+
+#sidebar {
+    position: fixed;
+    width: var(--sidebar-width);
+    min-width: var(--min-sidebar-width);
+    height: 100%;
+    z-index: 9997;
+    overflow-y: auto;
+}
+
+#navbar > ul > li,
+#info > ul > li {
+    margin-left: -5%;
+}
+
+.fa, .fab {
+    margin-right: 5%;
+}
+
+/* Inner Page */
+
+#inner {
+    width: var(--main-width);
+}
+
+#inner > * {
+    padding-bottom: 8%;
+}
+
+#inner > section {
+    margin-left: 2%;
+    margin-right: 3%;
+    padding-left: 0.5em;
+}
+
+#objective {
+    margin-left: 0.5%;
+    margin-top: 2%;    
+}
+
+article > p ,
+#inner > section > p {
+    text-indent: 12px;
+} 
+
+#picture > img {
+    margin: 3%;
+    margin-bottom: 10%;
+}
+
+#experience > article > h4,
+#experience > article > span {
+    display: inline-block;    
+}
+
