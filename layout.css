@@ -3,7 +3,7 @@
 :root {
     --main-width: 75%;
     --sidebar-width: calc(100% - var(--main-width));
-    --min-sidebar-width: 12em;
+    --min-sidebar-width: 15em;
     --header-height: 250px;
 }
 
@@ -70,7 +70,7 @@ p {
 }
 
 #objective {
-    margin-left: 0.5%;
+    margin-left: 1.5%;
     margin-top: 2%;    
 }
 

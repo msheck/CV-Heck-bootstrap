@@ -2,13 +2,17 @@
 
 /* Headings */
 
+h1,h2,h3,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 125%;
 }
 
-h1,h2,h3,h5,h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#objective h4 {
+    font-size: 175%;
 }
 
 h1 > strong > span {
